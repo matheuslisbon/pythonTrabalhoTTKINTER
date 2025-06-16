@@ -1,3 +1,4 @@
+# Autor: Matheus Eduardo - 213454
 import tkinter as tk
 from tkinter import ttk, messagebox
 import sqlite3
@@ -213,7 +214,12 @@ class App:
         ajuda.title("Ajuda")
         ajuda.geometry("400x200")
         tk.Label(ajuda, text="Alunos wyden", font=("Arial", 12)).pack(expand=True)
-
+        tk.Label(ajuda, text="Autor: Matheus Eduardo: 2024-0400-3663", font=("Arial", 10)).pack(expand=True)
+        tk.Label(ajuda, text="Integrante: Alexandre Ávila Klassmann Cintra: 2022-0871-6253", font=("Arial", 10)).pack(expand=True)
+        tk.Label(ajuda, text="Integrante: Gabriel Arcanjo Gonzaga: 2024-0281-7973", font=("Arial", 10)).pack(expand=True)
+        tk.Label(ajuda, text="Integrante: Morais: 2024-0816-0097", font=("Arial", 10)).pack(expand=True)
+        tk.Label(ajuda, text="Versão 1.0", font=("Arial", 10)).pack(expand=True)
+        tk.Label(ajuda, text="", font=("Arial", 10)).pack(expand=True)
 if __name__ == '__main__':
     criar_tabelas()
     root = tk.Tk()
